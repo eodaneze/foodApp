@@ -5,6 +5,7 @@ import Contact from './pages/Contact'
 import Menu from './pages/Menu'
 import Service from './pages/Service'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
             <Route path='/service' element={<Service />}/>
             <Route path='/contact' element={<Contact />}/>
          </Routes>
+         <Footer />
        </BrowserRouter>
     </div>
   )
