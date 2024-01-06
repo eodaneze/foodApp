@@ -20,8 +20,9 @@ const Navbar = () => {
                         <div className="nav-item dropdown">
                             <Link to={''} className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Account</Link>
                             <div className="dropdown-menu m-0">
-                                <a href="booking.html" className="dropdown-item">Login</a>
-                                <a href="team.html" className="dropdown-item">Register</a>
+                                <Link to={'/login'} className="dropdown-item">Login</Link>
+                                <Link to={'/register'} className="dropdown-item">Register</Link>
+                            
                                 
                             </div>
                         </div>
