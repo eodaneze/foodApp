@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Menu = () => {
+const DynamicMenu = () => {
   return (
     <div className="container-xxl py-5">
             <div className="container">
@@ -346,4 +346,4 @@ const Menu = () => {
   )
 }
 
-export default Menu
+export default DynamicMenu

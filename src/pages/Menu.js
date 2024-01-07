@@ -1,18 +1,19 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import DynamicHero from "../components/DynamicHero";
+import DynamicMenu from "../components/Homepage/DynamicMenu";
 const Menu = () => {
 	return (
 		<div>
 			{/* Navbar & Hero Start  */}
 			<div className="container-xxl position-relative p-0">
 				<Navbar />
-
 				<DynamicHero />
 			</div>
 			{/* Navbar & Hero End */}
+			
 			{/* Menu Start */}
-			<Menu />
+			<DynamicMenu />
 			{/* Menu End  */}
 		</div>
 	);

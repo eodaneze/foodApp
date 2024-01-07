@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Homepage/Hero";
 import Service from "../components/Homepage/Service";
 import About from "../components/Homepage/About";
-import Menu from "../components/Homepage/Menu";
+import DynamicMenu from "../components/Homepage/DynamicMenu";
 
 const Homepage = () => {
 	return (
@@ -27,7 +27,7 @@ const Homepage = () => {
 			{/* About End */}
 
 			{/* Menu Start */}
-			<Menu />
+			<DynamicMenu />
 			{/* Menu End  */}
 		</div>
 	);
