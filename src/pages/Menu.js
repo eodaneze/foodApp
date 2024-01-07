@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import DynamicHero from "../components/DynamicHero";
-import DynamicMenu from "../components/Homepage/DynamicMenu";
+import DynamicMenu from "../components/DynamicMenu";
 const Menu = () => {
 	return (
 		<div>
@@ -11,7 +11,7 @@ const Menu = () => {
 				<DynamicHero />
 			</div>
 			{/* Navbar & Hero End */}
-			
+
 			{/* Menu Start */}
 			<DynamicMenu />
 			{/* Menu End  */}

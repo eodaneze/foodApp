@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Homepage/Hero";
 import Service from "../components/Homepage/Service";
 import About from "../components/Homepage/About";
-import DynamicMenu from "../components/Homepage/DynamicMenu";
+import DynamicMenu from "../components/DynamicMenu";
 
 const Homepage = () => {
 	return (
