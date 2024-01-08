@@ -1,6 +1,6 @@
 import React from "react";
 
-const DynamicHero = () => {
+const DynamicHero = ({page}) => {
 	return (
 		<div className="container-xxl py-5 bg-dark hero-header mb-5">
 			<div className="container text-center my-5 pt-5 pb-4">
@@ -10,7 +10,7 @@ const DynamicHero = () => {
 				<nav aria-label="breadcrumb">
 					<ol className="breadcrumb justify-content-center text-uppercase">
 						<li className="breadcrumb-item">
-							<a href="#">Home</a>
+							<a href="/">Home</a>
 						</li>
 						<li className="breadcrumb-item">
 							<a href="#">Pages</a>
@@ -19,7 +19,7 @@ const DynamicHero = () => {
 							className="breadcrumb-item text-white active"
 							aria-current="page"
 						>
-							Menu
+							{page}
 						</li>
 					</ol>
 				</nav>
