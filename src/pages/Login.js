@@ -60,11 +60,11 @@ const Login = () => {
                 </button>
 
                 <p className="mb-0 text-center">
-                  Don't have an account? <a to="/register">Sign up</a>
+                  Don't have an account? <Link to="/register">Sign up</Link>
                 </p>
 
                 <p className="text-center">
-                  <a href="/forgot-password">Forgot password?</a>
+                <Link to="/forgotpassword">Forgot password?</Link>
                 </p>
               </form>
             </div>
