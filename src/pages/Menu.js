@@ -8,7 +8,7 @@ const Menu = () => {
 			{/* Navbar & Hero Start  */}
 			<div className="container-xxl position-relative p-0">
 				<Navbar />
-				<DynamicHero />
+				<DynamicHero page={"Menu"}/>
 			</div>
 			{/* Navbar & Hero End */}
 

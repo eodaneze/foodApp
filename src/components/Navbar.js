@@ -17,6 +17,7 @@ const Navbar = () => {
                         <Link to={"/about"} className="nav-item nav-link">About</Link>
                         <Link to={"/service"} className="nav-item nav-link">Service</Link>
                         <Link to={"/menu"} className="nav-item nav-link">Menu</Link>
+                        <Link to={"/contact"} className="nav-item nav-link">Contact</Link>
                         <div className="nav-item dropdown">
                             <Link to={''} className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Account</Link>
                             <div className="dropdown-menu m-0">
@@ -26,7 +27,6 @@ const Navbar = () => {
                                 
                             </div>
                         </div>
-                        <a href="contact.html" className="nav-item nav-link">Contact</a>
                     </div>
                     <a href="#" className="btn btn-primary py-2 px-4">Book A Table</a>
                 </div>
