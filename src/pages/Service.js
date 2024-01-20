@@ -1,16 +1,18 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import DynamicHero from '../components/DynamicHero'
+import React from "react";
+import Navbar from "../components/Navbar";
+import DynamicHero from "../components/DynamicHero";
 
 const Service = () => {
-  return (
-    <div>
-       <div className="container-xxl position-relative p-0">
+	return (
+		<div>
+			<div className="container-xxl position-relative p-0">
 				<Navbar />
-				<DynamicHero page={"Service"}/>
+				<DynamicHero page={"Service"} />
 			</div>
-    </div>
-  )
-}
 
-export default Service
+			
+		</div>
+	);
+};
+
+export default Service;
