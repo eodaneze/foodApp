@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Product from "./pages/Product";
+import User from "./pages/User";
 const App = () => {
 	return (
 		<div>
@@ -22,6 +23,7 @@ const App = () => {
 					<Route path="/login" element={<Login />} />
 					<Route path="/register" element={<Register />} />
 					<Route path="/menu/:productID" element={<Product />} />
+					<Route path="/user" element={<User />}/>
 				</Routes>
 				<Footer />
 			</BrowserRouter>
