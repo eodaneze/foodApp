@@ -24,7 +24,7 @@ const Orders = () => {
 						<td>$20</td>
 						<td>23-1-2024</td>
 						<td className="text-center">
-							<button className="btn btn-outline-warning">Pending</button>
+							<button className="btn btn-sm btn-outline-warning">Pending</button>
 						</td>
 					</tr>
 					<tr>
@@ -35,7 +35,7 @@ const Orders = () => {
 						<td>$20</td>
 						<td>23-1-2024</td>
 						<td className="text-center">
-							<button className="btn btn-outline-warning">Pending</button>
+							<button className="btn btn-sm btn-outline-warning">Pending</button>
 						</td>
 					</tr>
 					<tr>
@@ -46,9 +46,10 @@ const Orders = () => {
 						<td>$20</td>
 						<td>23-1-2024</td>
 						<td className="text-center">
-							<button className="btn btn-outline-warning">Pending</button>
+							<button className="btn btn-sm btn-outline-warning">Pending</button>
 						</td>
 					</tr>
+					
 				</tbody>
 			</table>
 		</div>

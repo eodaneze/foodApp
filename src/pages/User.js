@@ -18,12 +18,12 @@ const User = () => {
 		<div>
 			<div className="container-xxl position-relative p-0">
 				<Navbar />
-				<DynamicHero page={"Service"} />	
+				<DynamicHero page={"Account"} />	
 			</div>
 			<div className="container-xxl">
             <div className="row">
 					<div className="col-md-2">
-						<div className="btn-group-vertical">
+						<div className="btn-group-vertical d-flex">
 							<button
 								className="btn btn-outline-warning mb-2"
 								onClick={() => handleClick("dashboard")}
@@ -38,18 +38,6 @@ const User = () => {
 							</button>
 							<button
 								className="btn btn-outline-warning mb-2"
-								onClick={() => handleClick("payment")}
-							>
-								Payment Method
-							</button>
-							<button
-								className="btn btn-outline-warning mb-2"
-								onClick={() => handleClick("address")}
-							>
-								Address
-							</button>
-							<button
-								className="btn btn-outline-warning mb-2"
 								onClick={() => handleClick("account")}
 							>
 								Account Details
@@ -58,6 +46,11 @@ const User = () => {
 								className="btn btn-outline-warning mb-2"
 							>
 								Logout
+							</button>
+							<button
+								className="btn btn-outline-warning mb-2"
+							>
+								Delete Account
 							</button>
 						</div>
 					</div>
